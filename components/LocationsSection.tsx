@@ -98,6 +98,7 @@ const LocationsSection: React.FC = () => {
                                         href={office.mapsUrl ?? `https://www.google.com/maps/search/?api=1&query=${office.mapQuery}`}
                                         target="_blank"
                                         rel="noopener noreferrer"
+                                        aria-label={`Ver unidade de ${office.city} no Google Maps`}
                                         className="mt-5 inline-flex items-center gap-2 text-[#4A7BFF] text-sm font-medium hover:text-[#6b9aff] transition-colors group/link"
                                     >
                                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
