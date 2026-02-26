@@ -43,7 +43,7 @@ const Footer: React.FC = () => {
           {/* Links Rápidos */}
           <FadeIn direction="up" delay={100}>
             <div>
-              <h4 className="text-white/40 text-xs font-semibold uppercase tracking-widest mb-6">Links Rápidos</h4>
+              <h3 className="text-white/40 text-xs font-semibold uppercase tracking-widest mb-6">Links Rápidos</h3>
               <ul className="space-y-4 text-sm font-medium">
                 <li>
                   <button onClick={() => scrollTo('sobre')} className="hover:text-white transition-colors text-[#F9F5F1]/70">
@@ -72,7 +72,7 @@ const Footer: React.FC = () => {
           {/* Áreas de Atuação */}
           <FadeIn direction="up" delay={200}>
             <div>
-              <h4 className="text-white/40 text-xs font-semibold uppercase tracking-widest mb-6">Áreas de Atuação</h4>
+              <h3 className="text-white/40 text-xs font-semibold uppercase tracking-widest mb-6">Áreas de Atuação</h3>
               <ul className="space-y-4 text-sm font-medium">
                 <li>
                   <a href="/advogado-previdenciario-manaus" className="hover:text-white transition-colors text-[#F9F5F1]/70">
@@ -96,7 +96,7 @@ const Footer: React.FC = () => {
           {/* Contato */}
           <FadeIn direction="up" delay={300}>
             <div>
-              <h4 className="text-white/40 text-xs font-semibold uppercase tracking-widest mb-6">Contato</h4>
+              <h3 className="text-white/40 text-xs font-semibold uppercase tracking-widest mb-6">Contato</h3>
               <ul className="space-y-5 text-sm">
                 <li className="flex items-center gap-3">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#F5A623" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="flex-shrink-0">
