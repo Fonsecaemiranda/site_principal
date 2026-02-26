@@ -47,4 +47,4 @@ npm run build
 
 ## 👨‍💻 Desenvolvido por
 
-**[KV Group](https://www.kvgroupbr.com.br/)** — Soluções digitais para negócios.
+**[KV Group](https://www.kvgroupbr.com.br/)** — Transformando ideias em soluções.
