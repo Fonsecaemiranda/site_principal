@@ -45,7 +45,7 @@ const Hero: React.FC = () => {
               Defendemos seus direitos contra bancos e garantimos sua aposentadoria rural ou benefício previdenciário com agilidade e segurança.
             </p>
             <div className="mt-8">
-              <button onClick={openWhatsApp} className="group w-full md:w-auto bg-[#4A7BFF] text-white px-8 py-4 rounded-md font-medium text-lg hover:bg-[#3A6BEF] transition-all shadow-lg shadow-[#4A7BFF]/25 flex items-center justify-center gap-0 hover:gap-2">
+              <button onClick={openWhatsApp} className="group w-full md:w-auto bg-[#1a56db] text-white px-8 py-4 rounded-md font-medium text-lg hover:bg-[#1447c0] transition-all shadow-lg shadow-[#1a56db]/25 flex items-center justify-center gap-0 hover:gap-2">
                 <span>Agende uma Consulta Gratuita</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
