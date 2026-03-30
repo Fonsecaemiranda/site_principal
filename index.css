@@ -1,0 +1,41 @@
+/* Scroll Suave */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Animations */
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Image Auto Slider */
+@keyframes scroll-slider {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.image-slider-track {
+  animation: scroll-slider 90s linear infinite;
+}
+
+.image-slider-track:hover {
+  animation-play-state: paused;
+}
+
+.slider-mask {
+  -webkit-mask: linear-gradient(90deg, transparent 0%, black 8%, black 92%, transparent 100%);
+  mask: linear-gradient(90deg, transparent 0%, black 8%, black 92%, transparent 100%);
+}
