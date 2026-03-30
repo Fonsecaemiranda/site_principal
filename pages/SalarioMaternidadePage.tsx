@@ -466,7 +466,7 @@ const SalarioMaternidadePage: React.FC = () => {
                             { num: "1.000+", label: "casos previdenciários", color: "bg-blue-50" },
                             { num: "95%", label: "de taxa de sucesso", color: "bg-green-50" },
                             { num: "3", label: "cidades atendidas no AM", color: "bg-yellow-50" },
-                            { num: "0", label: "custo na consulta inicial", color: "bg-purple-50" },
+                            { num: "R$ 0", label: "custo na consulta inicial", color: "bg-purple-50" },
                         ].map((s) => (
                             <div key={s.label} className={`${s.color} rounded-xl p-4 text-center`}>
                                 <p className="text-2xl font-black text-gray-900">{s.num}</p>
